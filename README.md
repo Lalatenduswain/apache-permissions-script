@@ -1,0 +1,1 @@
+# apache-permissions-script
