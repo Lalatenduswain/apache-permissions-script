@@ -24,8 +24,9 @@ The purpose of this script is to ensure that the files and directories within `/
 2. git clone https://github.com/Lalatenduswain/apache-permissions-script.git
 
 
-3. curl -sSL https://raw.githubusercontent.com/Lalatenduswain/apache-permissions-script/refs/heads/master/permissions_script.sh | bash
-
+3. ```bash
+   curl -sSL https://raw.githubusercontent.com/Lalatenduswain/apache-permissions-script/refs/heads/master/permissions_script.sh | bash
+   ```
 4. Make the script executable:
    ```bash
    chmod +x permissions_script.sh
