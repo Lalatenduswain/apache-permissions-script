@@ -21,13 +21,17 @@ The purpose of this script is to ensure that the files and directories within `/
 ## Usage
 
 1. Clone the repository or copy the contents of the bash script (`permissions_script.sh`) to your desired location.
+2. git clone https://github.com/Lalatenduswain/apache-permissions-script.git
 
-2. Make the script executable:
+
+3. curl -sSL https://raw.githubusercontent.com/Lalatenduswain/apache-permissions-script/refs/heads/master/permissions_script.sh | bash
+
+4. Make the script executable:
    ```bash
    chmod +x permissions_script.sh
    ```
 
-3. Run the script with appropriate privileges:
+5. Run the script with appropriate privileges:
    ```bash
    ./permissions_script.sh
    ```
